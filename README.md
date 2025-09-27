@@ -1,5 +1,5 @@
 # 🌱 Sistem Penyiraman Otomatis  
-**Firmware v3.1 | Author: HanzNTahlah**
+**Firmware v3.1 | Author: Hanxthc**
 
 ---
 
