@@ -1,7 +1,7 @@
 #include <EEPROM.h>
 
 // === Sistem Penyiraman Otomatis ===
-// Firmware v3.1 | Author: HanzNTahlah
+// Firmware v3.1 | Author: Hanxthc
 
 // === Pin & Konfigurasi ===
 const int sensorPin = A0;   
@@ -21,7 +21,7 @@ int indexSample = 0;
 
 // Delay setting
 unsigned long lastSensor = 0;
-int delaySensor = 200;
+int delaySensor = 1000;
 int lastKelembaban = 0;
 
 bool monitorAktif = false;
@@ -40,7 +40,7 @@ void setup() {
   // Info booting
   Serial.println("\n=====================================");
   Serial.println("   Sistem Penyiraman Otomatis");
-  Serial.println("   Firmware v3.1 | Author: HanzNTahlah");
+  Serial.println("   Firmware v3.1 | Author: Hanxthc");
   Serial.println("=====================================\n");
 
   Serial.println("Command list:");
