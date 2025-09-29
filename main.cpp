@@ -1,7 +1,8 @@
 #include <EEPROM.h>
 
 // === Sistem Penyiraman Otomatis ===
-// Firmware v3.1 | Author: Hanxthc
+// Firmware v3.1 
+// Author: Hanxthc
 
 // === Pin & Konfigurasi ===
 const int sensorPin = A0;   
