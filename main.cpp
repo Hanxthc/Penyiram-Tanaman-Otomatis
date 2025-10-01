@@ -2,7 +2,7 @@
 
 // === Sistem Penyiraman Otomatis ===
 // Firmware v3.1 
-// Author: Hanxthc
+// Author: Hanxthc X Vanny
 
 // === Pin & Konfigurasi ===
 const int sensorPin = A0;   
